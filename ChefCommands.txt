@@ -7,7 +7,7 @@
 #Execute a Cookbook:
   sudo chef-client --local-mode --runlist "recipe[COOKBOOK::recipe]"
 
-#Capture Date in Realt-Time (Like | wmi-cim):
+#Capture Date in Realt-Time (Like | wmi-cim): Returns a Node Object..JSON Format
  ohai
  ohai ipaddress
  ohai hostname
