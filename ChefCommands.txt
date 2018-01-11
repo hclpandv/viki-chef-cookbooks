@@ -11,3 +11,6 @@
  ohai
  ohai ipaddress
  ohai hostname
+
+#First point of validation whether Chef-workstation talks to Server:
+ knife client list ----------- This Must return the Organization Name created on Chef Server.
