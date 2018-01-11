@@ -1,0 +1,10 @@
+#Execute a Recipe Local:
+
+ sudo chef-client --local-mode /path/of/myrecipe.rb
+
+#Generate a Cookbook:
+ sudo chef generate cookbook ./path/mycookbook
+
+#Execute a Cookbook:
+
+  sudo chef-client --local-mode --runlist "recipe[COOKBOOK::recipe]"
