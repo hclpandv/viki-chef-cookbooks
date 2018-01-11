@@ -14,3 +14,9 @@
 
 #First point of validation whether Chef-workstation talks to Server:
  knife client list ----------- This Must return the Organization Name created on Chef Server.
+
+#Upload a Cookbook to Server
+ knife cookbook upload apache
+
+#List Uploaded cookbooks on the server
+ knife cookbook list 
