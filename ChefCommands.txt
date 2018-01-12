@@ -22,5 +22,5 @@
  knife cookbook list 
 
 #Bootstrap a node
-knife bootstrap 104.211.190.124 -x vikitest -P Password@123 --sudo -N web1 -r "recipe[apache]"
+knife bootstrap 104.211.190.124 -x vikitest -P Password@123 --sudo -N mynode_name1 -r "recipe[apache]"
 
