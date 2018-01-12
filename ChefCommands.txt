@@ -20,3 +20,7 @@
 
 #List Uploaded cookbooks on the server
  knife cookbook list 
+
+#Bootstrap a node
+knife bootstrap 104.211.190.124 -x vikitest -P Password@123 --sudo -N web1 -r "recipe[apache]"
+
